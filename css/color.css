@@ -1,7 +1,20 @@
 /* COLOR */
 /* **** */
 
+
 /* Variables */
 :root{
+        /* colores de cajas*/
+        --colorHeader:   #03a9f4; 
+        --colorHero:     #d22b1f; 
+        --colorContent:  #129a22; 
+        --colorSidebar:  #673ab7; 
+        --colorFooter:   #616161; 
+    /* color de texto */
+        --colorText:     white;
 
+}
+
+h1{
+    color: var(--colorText);
 }
